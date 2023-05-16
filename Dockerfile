@@ -1,5 +1,3 @@
-FROM python:3.8-alpine
-RUN mkdir /app
-ADD . /app
-WORKDIR /app
-CMD ["python3", "app.py"]
+FROM tomcat:8
+# Take the war and copy to webapps of tomcat
+COPY target/*.war /usr/local/tomcat/webapps/dockeransible.war
