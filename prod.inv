@@ -1,2 +1,2 @@
-[dev]
+[prod]
 65.2.81.170 ansible_user=ubuntu
