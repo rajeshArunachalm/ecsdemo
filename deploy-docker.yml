@@ -25,4 +25,4 @@
         image: "arunachalamrajesh1/javahometech:latest"
         state: started
         published_ports:
-          - 0.0.0.0:8005:8080
+          - 0.0.0.0:8006:8080
