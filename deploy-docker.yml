@@ -6,6 +6,10 @@
       apt:
         name: python3-pip
         state: present
+    - name: install python-minimal -y
+      apt:
+        name: install python-minimal -y
+        state: present
     - name: Install docker
       apt:
         name: docker-compose
