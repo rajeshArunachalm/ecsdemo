@@ -1,2 +1,9 @@
 [prod]
+13.232.147.197 ansible_user=ubuntu
+
+[dev]
 65.1.81.170 ansible_user=ubuntu
+
+[test]
+65.1.81.170 ansible_user=ubuntu
+
