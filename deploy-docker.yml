@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: javahometech
-        image: "arunachalamrajesh1/javahometech:latest"
+        image: "arunachalamrajesh1/javahometech:{{DOCKER_TAG}}"
         state: started
         published_ports:
           - 0.0.0.0:8006:8080
