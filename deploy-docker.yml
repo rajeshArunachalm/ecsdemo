@@ -16,7 +16,6 @@
           - python3-pip
           - virtualenv
           - python3-setuptools
-          - python-minimal
         state: present
         update_cache: true
     - name: Install python3-minimal
