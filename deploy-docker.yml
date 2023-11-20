@@ -4,7 +4,7 @@
   tasks:
     - name: install python-pip
       apt:
-        name: Install python-pip
+        name: install python-pip
         state: present
     - name: install python-minimal -y
       apt:
