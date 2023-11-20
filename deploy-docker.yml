@@ -2,7 +2,7 @@
 - hosts: prod
   become: True
   tasks:
-    - name: Install python-pip -y
+    - name: Install python-pip
       apt:
         name: python-pip -y
         state: present
