@@ -6,9 +6,13 @@
       apt:
         name: python3
         state: present
-    - name: install python-minimal -y
+    - name: Install python3-pip
       apt:
-        name: install python-minimal -y
+        name: python3-pip
+        state: present
+    - name: Install python3-minimal
+      apt:
+        name: python-minimal
         state: present
     - name: Install docker
       apt:
