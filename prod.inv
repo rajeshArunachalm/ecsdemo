@@ -1,2 +1,5 @@
 [prod]
 172.31.43.112 ansible_user=ubuntu
+
+[bala]
+65.2.122.71 ansible_user=ubuntu
