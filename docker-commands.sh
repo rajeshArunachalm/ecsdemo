@@ -1,3 +1,9 @@
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl status docker
+sudo systemctl stop docker
+sudo systemctl restart docker
+
 docker -v  
 
 docker version  
@@ -32,4 +38,12 @@ enter password
 
 docker pause imagename:tag
 
+docker container inspect cotainerid or name
 
+docker image inspect imagename
+docker volume inspect volumeid
+docker network inspect networkid
+
+docker system prune
+
+sudo chmod 666 /var/run/docker.sock
