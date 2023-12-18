@@ -1,0 +1,9 @@
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/model/Product.java
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/ShopfrontApplication.java
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/services/dto/StockDTO.java
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/resources/ProductResource.java
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/repo/StockRepo.java
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/services/ProductService.java
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/repo/ProductRepo.java
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/services/dto/ProductDTO.java
+/home/rajesh/ecsdemo/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/controllers/HomeController.java
