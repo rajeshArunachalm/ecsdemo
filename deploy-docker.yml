@@ -2,9 +2,9 @@
 - hosts: prod
   become: True
   tasks:
-    - name: Install python3-apt
+    - name: Install python
       apt:
-        name: python3-apt
+        name: python
         state: present
     - name: Install required system packages
       apt:
@@ -13,7 +13,7 @@
           - ca-certificates
           - curl
           - software-properties-common
-          - python3-pip
+          - python-pip
           - virtualenv
           - python3-setuptools
         state: present
