@@ -34,7 +34,7 @@
     - name: Start the container
       docker_container:
         name: javahometech
-        image: "rajeshdevopsengineer24/tomcatjava:2.0"
+        image: "rajeshdevopsengineer24/tomcatjava:3.0"
         state: started
         published_ports:
           - 0.0.0.0:8000:8080
