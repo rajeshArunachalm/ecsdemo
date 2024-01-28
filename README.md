@@ -1,5 +1,5 @@
 # simple-django-project
-## Installation and deployment
+## Installation and deployment in prod
 
 ### Prerequisites
 
